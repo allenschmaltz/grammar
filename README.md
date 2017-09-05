@@ -1,4 +1,8 @@
 # grammar
 
 
-The code associated with the paper "Adapting Sequence Models for Sentence Correction" will be posted here before EMNLP 2017.
+Under construction. Instructions, preprocessing scripts, and additional code will be posted soon.
+
+## Citation/Reference
+
+"Adapting Sequence Models for Sentence Correction", EMNLP 2017
