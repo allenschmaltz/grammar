@@ -3,7 +3,7 @@
 
 Under development.
 
-A trained model (trained on the NUCLE + Lang-8 data) is available here:
+A trained model (trained on the NUCLE + Lang-8 data) is available here (in the folder w_n_w_l8_pyrep_s79_t100_rnn750_la2_v50000_brnn_opennmt_b48):
 
 https://drive.google.com/drive/folders/1Dsdp4Pgtfm-_MW5tOnQ26OkJuljnyAL7?usp=sharing
 
@@ -19,6 +19,12 @@ Test:
 
 Precision: 0.5375; Recall: 0.2404; F_0.5: 0.4310
 
+For historical purposes, the model used in the original paper (for use with the [original code](code/replication_fork)) is available at the above link in the folder legacy/word_nucle_w_lang8_v1_srclen79_trglen100_rnn750_la2_v50000_brnn_opennmt_batchsize48.
+
+## License (for trained models)
+
+The models linked above are provided solely for research purposes and are provided as-is without warranty of any kind. They were trained with the NUCLE and Lang-8 data (see references in the paper cited below) and usage must conform to the original licenses of those data sources.
+
 ## Citation/Reference
 
-"Adapting Sequence Models for Sentence Correction", EMNLP 2017
+Allen Schmaltz, Yoon Kim, Alexander Rush, and Stuart Shieber. 2017. Adapting sequence models for sentence correction. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, pages 2807-2813. https://www.aclweb.org/anthology/D17-1298. ([Appendix](http://aclweb.org/anthology/attachments/D/D17/D17-1298.Attachment.zip)) ([.bib](http://aclweb.org/anthology/D/D17/D17-1298.bib)) 
